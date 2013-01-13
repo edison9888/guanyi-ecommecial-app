@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- path(必填):页面标识 sel_go2Method(选填):页面跳转的方法名 desc(选填):页面描述 -->
+<!-- isSource(必填):是否是商品来源页面 pageId(必填):用于统计的页面id sel_param(选填):获得辅助参数的回调方法名,为空的话则认为没有参数 -->
+<Go2PageConfig>
+    <Page path="/root" sel_go2Method="" desc="根视图">
+        <BIGo2PageAction isSource="1" pageId="1000" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+    <Page path="/detail" sel_go2Method="" desc="详细视图">
+        <BIGo2PageAction isSource="1" pageId="1001" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+</Go2PageConfig>

@@ -1,0 +1,21 @@
+脚本使用说明
+
+注意：本文件夹下的文件后缀为
+		.scpt的需要导入，
+		.rb的需要手动添加到脚本项里。
+
+使用方法：
+1.后缀为.rb的文件：在xcode窗口菜单-->$->点击Edit User Scripts
+					-->点击+ 选New Shell Script
+					-->将.rb文件里的内容拷贝到右边文本中。
+
+	一般在右边还有四个弹出列表分别为Input，Directory，Output，Errors，在.rb的头部注释里对需要修改的会有说明，根据相应的提示修改
+	最后添加相应的快捷键。
+	
+2.后缀为.scpt的文件：在xcode窗口菜单-->$->点击Edit User Scripts
+						-->点击+ 选Add Script File
+						-->选择.scpt文件(注，这里最好将.scpt文件拷贝到电脑另外一个地方，以防工程被删除文件也不存在了)
+	一般在右边还有四个弹出列表分别为Input，Directory，Output，Errors，在.rb的头部注释里对需要修改的会有说明，根据相应的提示修改
+	最后添加相应的快捷键。
+
+

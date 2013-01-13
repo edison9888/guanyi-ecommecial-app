@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- path(必填):页面标识 sel_go2Method(选填):页面跳转的方法名 desc(选填):页面描述 -->
+<!-- isSource(必填):是否是商品来源页面 pageId(必填):用于统计的页面id sel_param(选填):获得辅助参数的回调方法名,为空的话则认为没有参数 -->
+<Go2PageConfig>
+    <Page path="/loading" sel_go2Method="" desc="启动加载页面">
+        <BIGo2PageAction isSource="0" pageId="1001" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+    <Page path="/home" sel_go2Method="" desc="首页">
+        <BIGo2PageAction isSource="1" pageId="1002" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/classified" sel_go2Method="" desc="分类浏览页面">
+        <BIGo2PageAction isSource="0" pageId="1005" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/filter" sel_go2Method="" desc="筛选页面">
+        <BIGo2PageAction isSource="0" pageId="1006" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/detail" sel_go2Method="" desc="商品详情页面">
+        <BIGo2PageAction isSource="0" pageId="1007" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/bigImage" sel_go2Method="" desc="商品大图页面">
+        <BIGo2PageAction isSource="0" pageId="1008" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/search" sel_go2Method="" desc="搜索页面">
+        <BIGo2PageAction isSource="0" pageId="1009" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/favorite" sel_go2Method="" desc="收藏夹页面">
+        <BIGo2PageAction isSource="1" pageId="1010" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/shoppingcart" sel_go2Method="" desc="购物车页面">
+        <BIGo2PageAction isSource="1" pageId="1011" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/cashcenter" sel_go2Method="" desc="结算中心页面">
+        <BIGo2PageAction isSource="0" pageId="1012" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/ordersuccess" sel_go2Method="" desc="订单生成页面">
+        <BIGo2PageAction isSource="0" pageId="1013" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/myorder" sel_go2Method="" desc="我的订单页面">
+        <BIGo2PageAction isSource="0" pageId="1014" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/address" sel_go2Method="" desc="地址管理页面">
+        <BIGo2PageAction isSource="0" pageId="1016" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/mycomment" sel_go2Method="" desc="我的评论页面">
+        <BIGo2PageAction isSource="0" pageId="1017" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/myaccount" sel_go2Method="" desc="我的帐户页面">
+        <BIGo2PageAction isSource="0" pageId="1018" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/other" sel_go2Method="" desc="其他页面">
+        <BIGo2PageAction isSource="0" pageId="1019" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/seckill" sel_go2Method="" desc="秒杀页面">
+        <BIGo2PageAction isSource="1" pageId="1023" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+    <Page path="/commonTopic" sel_go2Method="" desc="普通专题页">
+        <BIGo2PageAction isSource="1" pageId="1020" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+    <Page path="/catelist" sel_go2Method="" desc="分类商品列表页面">
+        <BIGo2PageAction isSource="1" pageId="1021" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/searchlist" sel_go2Method="" desc="搜索列表页">
+        <BIGo2PageAction isSource="1" pageId="1024" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/seckilldetail" sel_go2Method="" desc="秒杀详情页面">
+        <BIGo2PageAction isSource="0" pageId="1038" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/list" sel_go2Method="" desc="列表页面">
+        <BIGo2PageAction isSource="1" pageId="1039" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/listimage" sel_go2Method="" desc="列表图片模式页面">
+        <BIGo2PageAction isSource="1" pageId="1040" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/register" sel_go2Method="" desc="注册页面">
+        <BIGo2PageAction isSource="0" pageId="1034" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/login" sel_go2Method="" desc="登录页面">
+        <BIGo2PageAction isSource="0" pageId="1035" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/productinfo" sel_go2Method="" desc="商品详细信息页面">
+        <BIGo2PageAction isSource="0" pageId="1029" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/consult" sel_go2Method="" desc="售前咨询页面">
+        <BIGo2PageAction isSource="0" pageId="1042" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/buyercomment" sel_go2Method="" desc="买家评论页面">
+        <BIGo2PageAction isSource="0" pageId="1043" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/brandexplore" sel_go2Method="" desc="品牌浏览页面">
+        <BIGo2PageAction isSource="0" pageId="1044" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/selectaddress" sel_go2Method="" desc="选择收货地址页面">
+        <BIGo2PageAction isSource="0" pageId="1045" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/more" sel_go2Method="" desc="更多页面">
+        <BIGo2PageAction isSource="0" pageId="1033" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/messageread" sel_go2Method="" desc="消息阅读页面">
+        <BIGo2PageAction isSource="0" pageId="1046" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/personalsetting" sel_go2Method="" desc="个人资料设置页面">
+        <BIGo2PageAction isSource="0" pageId="1047" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/coupon" sel_go2Method="" desc="我的优惠券页面">
+        <BIGo2PageAction isSource="0" pageId="1032" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/orderdetail" sel_go2Method="" desc="订单详情页面">
+        <BIGo2PageAction isSource="0" pageId="1015" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/explore" sel_go2Method="" desc="商品浏览记录页面">
+        <BIGo2PageAction isSource="1" pageId="1048" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+	<Page path="/commentpublish" sel_go2Method="" desc="评论发布页面">
+        <BIGo2PageAction isSource="0" pageId="1049" sel_param="pageJumpParam"></BIGo2PageAction>
+    </Page>
+</Go2PageConfig>

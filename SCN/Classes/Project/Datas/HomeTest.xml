@@ -1,0 +1,30 @@
+<shopex>
+    <result>success</result>
+    <info>
+        <data_info>
+            <weblogid>123123</weblogid>
+            <coverflow>
+                <item type="new" id = "12" image="http://www.shangpu.com/a.jpg"/>
+                <item type="hot" id = "12" image="http://www.shangpu.com/a.jpg"/>
+                <item type="sec" id = "12" image="http://www.shangpu.com/a.jpg"/>
+                <item type="single" id = "12"  image="http://www.shangpu.com/a.jpg"/>
+            </coverflow>
+            <activity title="标题">
+                <item title="标题" off="70%" productCode="12321"
+                image=" http://www.shangpu.com/a.jpg"/>
+                <item title="标题" off=" 70%" productCode="12321"
+                image=" http://www.shangpu.com/a.jpg"/>
+                <item title="标题" off=" 70%" productCode="12321"
+                image=" http://www. shangpu.com/a.jpg"/>
+            </activity>
+            <topic title="栏目一">
+                <item title="标题" productCode="12321"
+                type="single" icon=" http://www.shangpu.com/a.jpg"/>
+                <item title="标题" type="hot" 
+                icon=" http://www.shangpu.com/a.jpg"/>
+                <item title="标题" type="new" 
+                icon=" http://www.shangpu.com/a.jpg"/>
+            </topic>
+        </data_info>
+    </info>
+</shopex>
